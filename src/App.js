@@ -8,7 +8,13 @@ import Burger from "./components/Burger";
 import Header from "./components/Header";
 import Cart from "./components/Cart";
 
-const url = "https://fod-app.herokuapp.com/food";
+//const url = "https://fod-app.herokuapp.com/food";
+
+const url = "https://62d7b7639c8b5185c77a604f.mockapi.io/foodAPi";
+
+//const url="https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
+//const url="https://www.themealdb.com/api/json/v1/1/search.php?f=a"
+//const url="https://api.punkapi.com/v2/beers"
 export const foodContex = React.createContext();
 
 function App() {
